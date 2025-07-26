@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Basic",
+      "price_per_month": 9.99,
+      "features": [
+        "Access to core features",
+        "Email support",
+        "Single user",
+        "5 GB storage"
+      ],
+      "description": "Ideal for individuals or small projects, the Basic plan offers essential tools to get started quickly and affordably."
+    },
+    {
+      "name": "Pro",
+      "price_per_month": 29.99,
+      "features": [
+        "All Basic features",
+        "Priority email support",
+        "Multi-user access (up to 5)",
+        "50 GB storage",
+        "Advanced analytics"
+      ],
+      "description": "The Pro plan is great for small teams and growing businesses, providing more storage and advanced capabilities."
+    },
+    {
+      "name": "Enterprise",
+      "price_per_month": 99.99,
+      "features": [
+        "All Pro features",
+        "Dedicated account manager",
+        "Unlimited users",
+        "1 TB storage",
+        "Custom integrations",
+        "24/7 premium support"
+      ],
+      "description": "Designed for large organizations, the Enterprise plan includes premium support, custom solutions, and unlimited scalability."
+    }
+  ]
