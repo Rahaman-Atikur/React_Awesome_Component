@@ -28,7 +28,8 @@ export default function NavBar() {
                 {
                     open ? <AlignJustify /> : <X />
                 }
-                <ul className="lg:hidden">
+               <ul className={`lg:hidden absolute bg-amber-600 duration-1000 ${!open ? 'top-30' : '-top-40'}`}>
+                    
                     {links}
                 </ul>
             </span>
