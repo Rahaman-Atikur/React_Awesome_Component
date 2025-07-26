@@ -21,16 +21,21 @@ const navData = [
 ];
 export default function NavBar() {
     const [open, setOpen] = useState(false);
+    const links = navData.map((route) => <Nav route={route}></Nav>);
     return (
         <div className="flex justify-between mx-10 my-10">
             <span onClick={() => setOpen(!open)}>
                 {
                     open ? <AlignJustify /> : <X />
                 }
+                <ul className="lg:hidden">
+                    {links}
+                </ul>
             </span>
-            <ul className="flex">
+
+            <ul className="hidden sm:flex">
                 {
-                    navData.map((route) => <Nav route={route}></Nav>)
+                    links
                 }
             </ul>
             <button className="btn">Login</button>
