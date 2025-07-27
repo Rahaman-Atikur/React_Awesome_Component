@@ -1,5 +1,6 @@
 import NavBar from './Components/NavBar/NavBar'
 import PricingOptions from './Components/PricingOptins/PricingOptions'
+import Recharts from './Components/Recharts/Recharts'
 const pricingOptionsPromise = fetch('pricing.json').then((res) => res.json())
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <main>
       <PricingOptions pricingOptionsPromise={pricingOptionsPromise}></PricingOptions>
       </main>
+      <Recharts></Recharts>
 
     </>
   )
